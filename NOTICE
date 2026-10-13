@@ -1,0 +1,115 @@
+swift-wma
+=========
+
+This repository holds a Swift port of the Windows Media Audio decoders of
+FFmpeg, https://github.com/FFmpeg/FFmpeg. The port follows the upstream files
+listed below at FFmpeg commit c766e0de78b0239a36e49e50573e2297a7b500b4.
+`README.md` maps each Swift file to the upstream files it ports.
+
+Each upstream file is under the GNU Lesser General Public License, version 2.1
+or (at your option) any later version. The port is a modified version of those
+files, so the port is under the same license. `LICENSE` holds the full text of
+version 2.1.
+
+The port changes the language of the upstream files from C to Swift. The work
+started in 2026, in the Musup repository of Toba.
+
+Copyright lines of the upstream files
+-------------------------------------
+
+Each line is as the header of the upstream file states it. A file with no line
+below its name states no holder, and its header reads "This file is part of
+FFmpeg."
+
+libavcodec/wma.c
+    Copyright (c) 2002-2007 The FFmpeg Project
+
+libavcodec/wma.h
+    Copyright (c) 2002-2007 The FFmpeg Project
+
+libavcodec/wma_common.c
+
+libavcodec/wma_freqs.c
+
+libavcodec/wmadata.h
+    copyright (c) 2002 The FFmpeg Project
+
+libavcodec/wmadec.c
+    Copyright (c) 2002 The FFmpeg Project
+
+libavcodec/wmaprodata.h
+    Copyright (c) 2007 Baptiste Coudurier, Benjamin Larsson, Ulion
+    Copyright (c) 2008 - 2009 Sascha Sommer
+
+libavcodec/wmaprodec.c
+    Copyright (c) 2007 Baptiste Coudurier, Benjamin Larsson, Ulion
+    Copyright (c) 2008 - 2011 Sascha Sommer, Benjamin Larsson
+
+libavcodec/wmalosslessdec.c
+    Copyright (c) 2007 Baptiste Coudurier, Benjamin Larsson, Ulion
+    Copyright (c) 2008 - 2011 Sascha Sommer, Benjamin Larsson
+    Copyright (c) 2011 Andreas Öman
+    Copyright (c) 2011 - 2012 Mashiat Sarker Shakkhar
+
+libavcodec/lossless_audiodsp.c
+    Copyright (c) 2007 Benjamin Zores <ben@geexbox.org>
+
+libavcodec/wmavoice.c
+    Copyright (c) 2009 Ronald S. Bultje
+
+libavcodec/wmavoice_data.h
+    Copyright (c) 2009 Ronald S. Bultje
+
+libavcodec/celp_filters.c
+    Copyright (c) 2008 Vladimir Voroshilov
+
+libavcodec/acelp_filters.c
+    Copyright (c) 2008 Vladimir Voroshilov
+
+libavcodec/acelp_vectors.c
+    Copyright (c) 2008 Vladimir Voroshilov
+
+libavcodec/lsp.c
+    Copyright (c) 2007 Reynaldo H. Verdejo Pinochet (QCELP decoder)
+    Copyright (c) 2008 Vladimir Voroshilov
+
+libavcodec/aactab.c
+    Copyright (c) 2005-2006 Oded Shimon ( ods15 ods15 dyndns org )
+    Copyright (c) 2006-2007 Maxim Gavrilov ( maxim.gavrilov gmail com )
+
+libavcodec/vlc.c
+    Copyright (c) 2000, 2001 Fabrice Bellard
+    Copyright (c) 2002-2004 Michael Niedermayer <michaelni@gmx.at>
+    Copyright (c) 2010 Loren Merritt
+
+libavcodec/get_bits.h
+    Copyright (c) 2004 Michael Niedermayer <michaelni@gmx.at>
+
+libavcodec/put_bits.h
+    copyright (c) 2004 Michael Niedermayer <michaelni@gmx.at>
+
+libavcodec/sinewin_tablegen.h
+    Copyright (c) 2009 Reimar Döffinger <Reimar.Doeffinger@gmx.de>
+
+libavutil/tx.c
+
+libavutil/tx_template.c
+    Copyright (c) Lynne
+    Copyright (c) 2008 Loren Merritt
+    Copyright (c) 2002 Fabrice Bellard
+
+libavutil/common.h
+    copyright (c) 2006 Michael Niedermayer <michaelni@gmx.at>
+
+libavutil/intmath.h
+    Copyright (c) 2010 Mans Rullgard <mans@mansr.com>
+
+libavutil/ffmath.h
+    copyright (c) 2016 Ganesh Ajjanagadde <gajjanag@gmail.com>
+
+libavformat/asf.c
+    Copyright (c) 2000, 2001 Fabrice Bellard
+
+libavformat/asfdec_f.c
+    Copyright (c) 2000, 2001 Fabrice Bellard
+
